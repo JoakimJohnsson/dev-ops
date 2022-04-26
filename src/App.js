@@ -1,15 +1,18 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {faFish, faCaravan, faSchool} from "@fortawesome/free-solid-svg-icons";
+import {BrowserRouter as Router, Route, Routes} from "react-router-dom";
+import StartPage from "./components/pages/StartPage";
+import Header from "./components/Header";
 
 function App() {
-  return (
-    <div className="App">
-      <h1 className={"bg-light"}>Dev ops</h1>
-      <FontAwesomeIcon icon={faFish} className={"me-2"}/>
-      <FontAwesomeIcon icon={faCaravan} className={"me-2"}/>
-      <FontAwesomeIcon icon={faSchool} className={"me-2"}/>
-    </div>
-  );
+    return (
+        <>
+            <Router>
+                <Header/>
+                <Routes>
+                    <Route exact path={"/"} element={<StartPage/>}/>
+                </Routes>
+            </Router>
+        </>
+    );
 }
 
 export default App;
