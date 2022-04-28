@@ -1,7 +1,7 @@
 import React from 'react';
 import {Tab} from "react-bootstrap";
 import IconLink from "../../IconLink";
-import {faExternalLinkAlt} from "@fortawesome/free-solid-svg-icons";
+import {faExternalLinkAlt, faNetworkWired} from "@fortawesome/free-solid-svg-icons";
 import TriIcons from "../../TriIcons";
 import exWeb01 from "../../../../src/assets/web/exercises/01.pdf";
 import exWeb02 from "../../../../src/assets/web/exercises/02.pdf";
@@ -39,7 +39,7 @@ const CodingWebTabPane = () => {
                     <h2>Web / Spring framework exercises</h2>
                 </div>
                 <div className="tab-pane-card">
-                    <TriIcons icons={["network-wired"]} />
+                    <TriIcons icons={[faNetworkWired]} />
                     <h3>01 - Spring boot crash course</h3>
                     <IconLink link={slWeb01} text={"Slide 01"}
                               icon={faExternalLinkAlt} external={true}/>
@@ -47,7 +47,7 @@ const CodingWebTabPane = () => {
                               icon={faExternalLinkAlt} external={true}/>
                 </div>
                 <div className="tab-pane-card">
-                    <TriIcons icons={["network-wired"]} />
+                    <TriIcons icons={[faNetworkWired]} />
                     <h3>02 - Java web fundamentals</h3>
                     <IconLink link={slWeb02} text={"Slide 02"}
                               icon={faExternalLinkAlt} external={true}/>
@@ -55,7 +55,7 @@ const CodingWebTabPane = () => {
                               icon={faExternalLinkAlt} external={true}/>
                 </div>
                 <div className="tab-pane-card">
-                    <TriIcons icons={["network-wired"]} />
+                    <TriIcons icons={[faNetworkWired]} />
                     <h3>03 - Maven</h3>
                     <IconLink link={slWeb03} text={"Slide 03"}
                               icon={faExternalLinkAlt} external={true}/>
@@ -63,7 +63,7 @@ const CodingWebTabPane = () => {
                               icon={faExternalLinkAlt} external={true}/>
                 </div>
                 <div className="tab-pane-card">
-                    <TriIcons icons={["network-wired"]} />
+                    <TriIcons icons={[faNetworkWired]} />
                     <h3>04 - Spring framework</h3>
                     <IconLink link={slWeb04} text={"Slide 04"}
                               icon={faExternalLinkAlt} external={true}/>
@@ -71,7 +71,7 @@ const CodingWebTabPane = () => {
                               icon={faExternalLinkAlt} external={true}/>
                 </div>
                 <div className="tab-pane-card">
-                    <TriIcons icons={["network-wired"]} />
+                    <TriIcons icons={[faNetworkWired]} />
                     <h3>05 - Spring MVC</h3>
                     <IconLink link={slWeb05} text={"Slide 05"}
                               icon={faExternalLinkAlt} external={true}/>
@@ -79,7 +79,7 @@ const CodingWebTabPane = () => {
                               icon={faExternalLinkAlt} external={true}/>
                 </div>
                 <div className="tab-pane-card">
-                    <TriIcons icons={["network-wired"]} />
+                    <TriIcons icons={[faNetworkWired]} />
                     <h3>06 - Login and cookies</h3>
                     <IconLink link={slWeb06} text={"Slide 06"}
                               icon={faExternalLinkAlt} external={true}/>
@@ -87,7 +87,7 @@ const CodingWebTabPane = () => {
                               icon={faExternalLinkAlt} external={true}/>
                 </div>
                 <div className="tab-pane-card">
-                    <TriIcons icons={["network-wired"]} />
+                    <TriIcons icons={[faNetworkWired]} />
                     <h3>07 - Mini exercises</h3>
                     <IconLink link={slWeb07} text={"Slide 07"}
                               icon={faExternalLinkAlt} external={true}/>
@@ -95,7 +95,7 @@ const CodingWebTabPane = () => {
                               icon={faExternalLinkAlt} external={true}/>
                 </div>
                 <div className="tab-pane-card">
-                    <TriIcons icons={["network-wired"]} />
+                    <TriIcons icons={[faNetworkWired]} />
                     <h3>08 - JDBC Hacking</h3>
                     <IconLink link={slWeb08} text={"Slide 08"}
                               icon={faExternalLinkAlt} external={true}/>
@@ -103,7 +103,7 @@ const CodingWebTabPane = () => {
                               icon={faExternalLinkAlt} external={true}/>
                 </div>
                 <div className="tab-pane-card">
-                    <TriIcons icons={["network-wired"]} />
+                    <TriIcons icons={[faNetworkWired]} />
                     <h3>09 - Pagination</h3>
                     <IconLink link={slWeb09} text={"Slide 09"}
                               icon={faExternalLinkAlt} external={true}/>
@@ -111,7 +111,7 @@ const CodingWebTabPane = () => {
                               icon={faExternalLinkAlt} external={true}/>
                 </div>
                 <div className="tab-pane-card">
-                    <TriIcons icons={["network-wired"]} />
+                    <TriIcons icons={[faNetworkWired]} />
                     <h3>10 - Form object</h3>
                     <IconLink link={slWeb10} text={"Slide 10"}
                               icon={faExternalLinkAlt} external={true}/>
@@ -119,7 +119,7 @@ const CodingWebTabPane = () => {
                               icon={faExternalLinkAlt} external={true}/>
                 </div>
                 <div className="tab-pane-card">
-                    <TriIcons icons={["network-wired"]} />
+                    <TriIcons icons={[faNetworkWired]} />
                     <h3>11 - Model validation</h3>
                     <IconLink link={slWeb11} text={"Slide 11"}
                               icon={faExternalLinkAlt} external={true}/>
@@ -127,7 +127,7 @@ const CodingWebTabPane = () => {
                               icon={faExternalLinkAlt} external={true}/>
                 </div>
                 <div className="tab-pane-card">
-                    <TriIcons icons={["network-wired"]} />
+                    <TriIcons icons={[faNetworkWired]} />
                     <h3>12 - Advanced forms</h3>
                     <IconLink link={slWeb12} text={"Slide 12"}
                               icon={faExternalLinkAlt} external={true}/>
@@ -135,7 +135,7 @@ const CodingWebTabPane = () => {
                               icon={faExternalLinkAlt} external={true}/>
                 </div>
                 <div className="tab-pane-card">
-                    <TriIcons icons={["network-wired"]} />
+                    <TriIcons icons={[faNetworkWired]} />
                     <h3>13 - JPA and Spring data</h3>
                     <IconLink link={slWeb13} text={"Slide 13"}
                               icon={faExternalLinkAlt} external={true}/>

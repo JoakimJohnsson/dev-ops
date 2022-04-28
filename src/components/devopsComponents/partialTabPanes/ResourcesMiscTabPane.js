@@ -1,7 +1,7 @@
 import React from 'react';
 import {Tab} from "react-bootstrap";
 import IconLink from "../../IconLink";
-import {faExternalLinkAlt} from "@fortawesome/free-solid-svg-icons";
+import {faExternalLinkAlt, faQuestion} from "@fortawesome/free-solid-svg-icons";
 import TriIcons from "../../TriIcons";
 
 const ResourcesMiscTabPane = () => {
@@ -12,7 +12,7 @@ const ResourcesMiscTabPane = () => {
                     <h2>Miscellaneous</h2>
                 </div>
                 <div className="tab-pane-card">
-                    <TriIcons icons={["question"]} />
+                    <TriIcons icons={[faQuestion]} />
                     <h3>Can I use?</h3>
                     <p>Browser support tables for modern web technologies.</p>
                     <IconLink link={"https://caniuse.com/"} text={"Can I use?"}

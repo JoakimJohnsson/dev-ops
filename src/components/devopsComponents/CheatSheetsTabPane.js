@@ -1,7 +1,7 @@
 import React from 'react';
 import {Tab} from "react-bootstrap";
 import IconLink from "../IconLink";
-import {faExternalLinkAlt} from "@fortawesome/free-solid-svg-icons";
+import {faExternalLinkAlt, faCodeBranch, faUserAstronaut, faFileCode, faLaptopCode} from "@fortawesome/free-solid-svg-icons";
 import TriIcons from "../TriIcons";
 
 const CheatSheetsTabPane = () => {
@@ -21,7 +21,7 @@ const CheatSheetsTabPane = () => {
                 </div>
                 <div className="row no-gutters">
                     <div className="tab-pane-card">
-                        <TriIcons icons={["code-branch"]}/>
+                        <TriIcons icons={[faCodeBranch]}/>
                         <h3>Git</h3>
                         <p>
                             Git is the free and open source distributed version control system that's responsible for
@@ -34,7 +34,7 @@ const CheatSheetsTabPane = () => {
                                   icon={faExternalLinkAlt} external={true}/>
                     </div>
                     <div className="tab-pane-card">
-                        <TriIcons icons={["user-astronaut"]}/>
+                        <TriIcons icons={[faUserAstronaut]}/>
                         <h3>Node package manager</h3>
                         <p>
                             npm is the default package manager for the JavaScript runtime environment Node.js. It consists of a command line
@@ -46,7 +46,7 @@ const CheatSheetsTabPane = () => {
                                   icon={faExternalLinkAlt} external={true}/>
                     </div>
                     <div className="tab-pane-card">
-                        <TriIcons icons={["file-code"]}/>
+                        <TriIcons icons={[faFileCode]}/>
                         <h3>CSS</h3>
                         <p>
                             Great cheat sheet with links to MDN documentation.
@@ -57,7 +57,7 @@ const CheatSheetsTabPane = () => {
                                   icon={faExternalLinkAlt} external={true}/>
                     </div>
                     <div className="tab-pane-card">
-                        <TriIcons icons={["laptop-code"]}/>
+                        <TriIcons icons={[faLaptopCode]}/>
                         <h3>Naming</h3>
                         <p>
                             All you need to know about naming conventions and best practices in a convenient package.
@@ -68,7 +68,7 @@ const CheatSheetsTabPane = () => {
                                   icon={faExternalLinkAlt} external={true}/>
                     </div>
                     <div className="tab-pane-card">
-                        <TriIcons icons={["file-code"]}/>
+                        <TriIcons icons={[faFileCode]}/>
                         <h3>Bulletproof React</h3>
                         <p>
                             Everything you need to know about how to structure your project.
@@ -81,7 +81,7 @@ const CheatSheetsTabPane = () => {
                                   icon={faExternalLinkAlt} external={true}/>
                     </div>
                     <div className="tab-pane-card">
-                        <TriIcons icons={["file-code"]}/>
+                        <TriIcons icons={[faFileCode]}/>
                         <h3>JSX / React conditional rendering</h3>
                         <p>
                             Good advice on JSX conditionals.

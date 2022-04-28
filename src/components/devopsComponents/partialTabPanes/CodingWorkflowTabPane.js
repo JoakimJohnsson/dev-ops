@@ -1,7 +1,7 @@
 import React from 'react';
 import {Tab} from "react-bootstrap";
 import IconLink from "../../IconLink";
-import {faExternalLinkAlt} from "@fortawesome/free-solid-svg-icons";
+import {faExternalLinkAlt, faCodeBranch, faLaptopCode} from "@fortawesome/free-solid-svg-icons";
 import TriIcons from "../../TriIcons";
 
 const CodingWorkflowTabPane = () => {
@@ -12,7 +12,7 @@ const CodingWorkflowTabPane = () => {
                     <h2>Git</h2>
                 </div>
                 <div className="tab-pane-card">
-                    <TriIcons icons={["code-branch"]}/>
+                    <TriIcons icons={[faCodeBranch]}/>
                     <h3>Creating the perfect commit</h3>
                     <p>
                         In this post, we’re talking about what it takes to produce the “perfect” commit.
@@ -23,7 +23,7 @@ const CodingWorkflowTabPane = () => {
                               icon={faExternalLinkAlt} external={true}/>
                 </div>
                 <div className="tab-pane-card">
-                    <TriIcons icons={["laptop-code"]}/>
+                    <TriIcons icons={[faLaptopCode]}/>
                     <h3>Naming conventions</h3>
                     <p>
                         In this post, we’re talking about what it takes to produce the “perfect” commit.

@@ -1,7 +1,7 @@
 import React from 'react';
 import {Tab} from "react-bootstrap";
 import IconLink from "../../IconLink";
-import {faExternalLinkAlt} from "@fortawesome/free-solid-svg-icons";
+import {faExternalLinkAlt, faGraduationCap} from "@fortawesome/free-solid-svg-icons";
 import TriIcons from "../../TriIcons";
 
 const AccessibilityTutorialsTabPane = () => {
@@ -12,7 +12,7 @@ const AccessibilityTutorialsTabPane = () => {
                     <h2>Tutorials</h2>
                 </div>
                 <div className="tab-pane-card">
-                    <TriIcons icons={["graduation-cap"]} />
+                    <TriIcons icons={[faGraduationCap]} />
                     <h3>Basics of UX</h3>
                     <p>This article introduces a workflow that can help teams, products, startups and companies create a robust and meaningful
                         process for developing a better user experience for their customers. You could use different parts of the process

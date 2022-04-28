@@ -1,7 +1,7 @@
 import React from 'react';
 import {Tab} from "react-bootstrap";
 import IconLink from "../../IconLink";
-import {faExternalLinkAlt} from "@fortawesome/free-solid-svg-icons";
+import {faExternalLinkAlt, faRobot, faPalette, faSitemap, faMusic, faSignLanguage} from "@fortawesome/free-solid-svg-icons";
 import TriIcons from "../../TriIcons";
 
 const AccessibilityAccessibilityTabPane = () => {
@@ -12,7 +12,7 @@ const AccessibilityAccessibilityTabPane = () => {
                     <h2>Testing</h2>
                 </div>
                 <div className="tab-pane-card">
-                    <TriIcons icons={["robot"]} />
+                    <TriIcons icons={[faRobot]} />
                     <h3>Access monitor</h3>
                     <p>Managed by the Portuguese government, these are sites and tools to support accessibility and usability, to
                         ensure promotion good practices and improve the experience of using digital services.</p>
@@ -20,7 +20,7 @@ const AccessibilityAccessibilityTabPane = () => {
                               icon={faExternalLinkAlt} external={true}/>
                 </div>
                 <div className="tab-pane-card">
-                    <TriIcons icons={["palette"]} />
+                    <TriIcons icons={[faPalette]} />
                     <h3>Colour contrast checker</h3>
                     <p>Colour contrast is an important part of web accessibility. And one of the easiest things to check for, and get
                         right.</p>
@@ -28,7 +28,7 @@ const AccessibilityAccessibilityTabPane = () => {
                               icon={faExternalLinkAlt} external={true}/>
                 </div>
                 <div className="tab-pane-card">
-                    <TriIcons icons={["sitemap"]} />
+                    <TriIcons icons={[faSitemap]} />
                     <h3>axe - Web Accessibility Testing</h3>
                     <p>Find and fix more accessibility issues during website development with axe DevTools. The free axe DevTools
                         browser extension is a fast, lightweight, yet powerful testing tool driven by the
@@ -39,7 +39,7 @@ const AccessibilityAccessibilityTabPane = () => {
                               icon={faExternalLinkAlt} external={true}/>
                 </div>
                 <div className="tab-pane-card">
-                    <TriIcons icons={["music"]} />
+                    <TriIcons icons={[faMusic]} />
                     <h3>W3C HTML Validator</h3>
                     <p>The World Wide Web Consortium (W3C) is an international community that develops open
                         standards
@@ -49,7 +49,7 @@ const AccessibilityAccessibilityTabPane = () => {
                               icon={faExternalLinkAlt} external={true}/>
                 </div>
                 <div className="tab-pane-card">
-                    <TriIcons icons={["sign-language"]}/>
+                    <TriIcons icons={[faSignLanguage]}/>
                     <h3>How to Meet WCAG (Quick Reference)</h3>
                     <p>
                         A customizable quick reference to Web Content Accessibility Guidelines (WCAG) 2 requirements (success criteria)
@@ -61,7 +61,7 @@ const AccessibilityAccessibilityTabPane = () => {
                               icon={faExternalLinkAlt} external={true}/>
                 </div>
                 <div className="tab-pane-card">
-                    <TriIcons icons={["sign-language"]}/>
+                    <TriIcons icons={[faSignLanguage]}/>
                     <h3>Accessibility Checklist for developers</h3>
                     <p>
                         Deque recommends using a combination of software tools and informed human analysis - using a checklist such as the one in
@@ -73,7 +73,7 @@ const AccessibilityAccessibilityTabPane = () => {
                               icon={faExternalLinkAlt} external={true}/>
                 </div>
                 <div className="tab-pane-card">
-                    <TriIcons icons={["sign-language"]}/>
+                    <TriIcons icons={[faSignLanguage]}/>
                     <h3>Accessibility Checklist for designers</h3>
                     <p>
                         Deque recommends using a combination of software tools and informed human analysis - using a checklist such as the one in

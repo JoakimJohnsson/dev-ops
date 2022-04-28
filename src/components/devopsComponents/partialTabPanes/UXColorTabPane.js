@@ -1,7 +1,7 @@
 import React from 'react';
 import {Tab} from "react-bootstrap";
 import IconLink from "../../IconLink";
-import {faExternalLinkAlt} from "@fortawesome/free-solid-svg-icons";
+import {faExternalLinkAlt, faPalette, faSwatchbook, faChalkboardTeacher} from "@fortawesome/free-solid-svg-icons";
 import TriIcons from "../../TriIcons";
 
 const UXColorTabPane = () => {
@@ -12,21 +12,21 @@ const UXColorTabPane = () => {
                     <h2>Color resources and links</h2>
                 </div>
                 <div className="tab-pane-card">
-                    <TriIcons icons={["palette"]} />
+                    <TriIcons icons={[faPalette]} />
                     <h3>Adobe color</h3>
                     <p>This color wheel can be used to generate a color palette.</p>
                     <IconLink link={"https://color.adobe.com/sv/create/color-wheel"} text={"Adobe color"}
                               icon={faExternalLinkAlt} external={true}/>
                 </div>
                 <div className="tab-pane-card">
-                    <TriIcons icons={["swatchbook"]} />
+                    <TriIcons icons={[faSwatchbook]} />
                     <h3>Color hunt</h3>
                     <p>Browse and get inspired by lots of ready-made color palettes.</p>
                     <IconLink link={"https://colorhunt.co/"} text={"Color hunt"}
                               icon={faExternalLinkAlt} external={true}/>
                 </div>
                 <div className="tab-pane-card">
-                    <TriIcons icons={["chalkboard-teacher"]} />
+                    <TriIcons icons={[faChalkboardTeacher]} />
                     <h3>Color theory - wikipedia</h3>
                     <p>Everything you need to know about color theory?</p>
                     <IconLink link={"https://en.wikipedia.org/wiki/Color_theory"} text={"Color theory"}
@@ -35,7 +35,7 @@ const UXColorTabPane = () => {
                               icon={faExternalLinkAlt} external={true}/>
                 </div>
                 <div className="tab-pane-card">
-                    <TriIcons icons={["chalkboard-teacher"]} />
+                    <TriIcons icons={[faChalkboardTeacher]} />
                     <h3>Color theory - hubspot blog</h3>
                     <p>Everything you need to know about color theory?</p>
                     <IconLink link={"https://blog.hubspot.com/marketing/color-theory-design"} text={"Color theory"}
@@ -44,7 +44,7 @@ const UXColorTabPane = () => {
                               icon={faExternalLinkAlt} external={true}/>
                 </div>
                 <div className="tab-pane-card">
-                    <TriIcons icons={["swatchbook"]} />
+                    <TriIcons icons={[faSwatchbook]} />
                     <h3>Colour contrast checker</h3>
                     <p>Color contrast is an important part of web accessibility. And one of the easiest things to check for, and get
                         right.</p>

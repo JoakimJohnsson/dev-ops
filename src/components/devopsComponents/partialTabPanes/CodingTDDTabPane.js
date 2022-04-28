@@ -1,7 +1,7 @@
 import React from 'react';
 import {Tab} from "react-bootstrap";
 import IconLink from "../../IconLink";
-import {faExternalLinkAlt} from "@fortawesome/free-solid-svg-icons";
+import {faExternalLinkAlt, faServer} from "@fortawesome/free-solid-svg-icons";
 import TriIcons from "../../TriIcons";
 import exTDD01 from "../../../../src/assets/tdd/exercises/01.pdf";
 import exTDD02 from "../../../../src/assets/tdd/exercises/02.pdf";
@@ -18,7 +18,7 @@ const CodingTDDTabPane = () => {
                     <h2>TDD (Test driven development) exercises</h2>
                 </div>
                 <div className="tab-pane-card">
-                    <TriIcons icons={["server"]} />
+                    <TriIcons icons={[faServer]} />
                     <h3>01 - Introduction to TDD</h3>
                     <IconLink link={slTDD01} text={"Slide 01"}
                               icon={faExternalLinkAlt} external={true}/>
@@ -26,7 +26,7 @@ const CodingTDDTabPane = () => {
                               icon={faExternalLinkAlt} external={true}/>
                 </div>
                 <div className="tab-pane-card">
-                    <TriIcons icons={["server"]} />
+                    <TriIcons icons={[faServer]} />
                     <h3>02 - TDD - The big picture</h3>
                     <IconLink link={slTDD02} text={"Slide 02"}
                               icon={faExternalLinkAlt} external={true}/>
@@ -34,7 +34,7 @@ const CodingTDDTabPane = () => {
                               icon={faExternalLinkAlt} external={true}/>
                 </div>
                 <div className="tab-pane-card">
-                    <TriIcons icons={["server"]} />
+                    <TriIcons icons={[faServer]} />
                     <h3>03 - Basic unit testing</h3>
                     <IconLink link={slTDD03} text={"Slide 03"}
                               icon={faExternalLinkAlt} external={true}/>

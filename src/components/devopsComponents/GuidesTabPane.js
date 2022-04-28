@@ -1,7 +1,7 @@
 import React from 'react';
 import {Tab} from "react-bootstrap";
 import IconLink from "../IconLink";
-import {faExternalLinkAlt} from "@fortawesome/free-solid-svg-icons";
+import {faExternalLinkAlt, faVrCardboard, faUserAstronaut, faRobot} from "@fortawesome/free-solid-svg-icons";
 import TriIcons from "../TriIcons";
 
 const GuidesTabPane = () => {
@@ -16,7 +16,7 @@ const GuidesTabPane = () => {
                 </div>
                 <div className="row no-gutters">
                     <div className="tab-pane-card">
-                        <TriIcons icons={["vr-cardboard"]}/>
+                        <TriIcons icons={[faVrCardboard]}/>
                         <h3>Bootstrap flex</h3>
                         <p>
                             Flex utility can be used to manage the layout, alignment, grid columns, navigation and other components
@@ -28,7 +28,7 @@ const GuidesTabPane = () => {
                                   icon={faExternalLinkAlt} external={true}/>
                     </div>
                     <div className="tab-pane-card">
-                        <TriIcons icons={["user-astronaut"]}/>
+                        <TriIcons icons={[faUserAstronaut]}/>
                         <h3>Complete guide to flexbox</h3>
                         <p>
                             Our comprehensive guide to CSS flexbox layout. This complete guide explains everything about flexbox,
@@ -41,7 +41,7 @@ const GuidesTabPane = () => {
                                   icon={faExternalLinkAlt} external={true}/>
                     </div>
                     <div className="tab-pane-card">
-                        <TriIcons icons={["robot"]}/>
+                        <TriIcons icons={[faRobot]}/>
                         <h3>CSS snippets and guides</h3>
                         <p>
                             A plethora of useful tricks, snippets and guides for almost everything a front-end developer might need.
@@ -52,7 +52,7 @@ const GuidesTabPane = () => {
                                   icon={faExternalLinkAlt} external={true}/>
                     </div>
                     <div className="tab-pane-card">
-                        <TriIcons icons={["robot"]}/>
+                        <TriIcons icons={[faRobot]}/>
                         <h3>Debugging CSS</h3>
                         <p>
                             Debugging in CSS means figuring out what might be the problem when you have unexpected layout results. We'll

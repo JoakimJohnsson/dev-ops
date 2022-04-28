@@ -1,7 +1,7 @@
 import React from 'react';
 import {Tab} from "react-bootstrap";
 import IconLink from "../../IconLink";
-import {faExternalLinkAlt} from "@fortawesome/free-solid-svg-icons";
+import {faExternalLinkAlt, faPhotoVideo, faImages} from "@fortawesome/free-solid-svg-icons";
 import TriIcons from "../../TriIcons";
 
 const ResourcesImagesTabPane = () => {
@@ -12,7 +12,7 @@ const ResourcesImagesTabPane = () => {
                     <h2>Free image resources</h2>
                 </div>
                 <div className="tab-pane-card">
-                    <TriIcons icons={["photo-video"]} />
+                    <TriIcons icons={[faPhotoVideo]} />
                     <h3>NASA Image library</h3>
                     <p>NASA's image library consolidates imagery and videos in one searchable locations. Users can download
                         content in multiple sizes and resolutions.</p>
@@ -20,7 +20,7 @@ const ResourcesImagesTabPane = () => {
                               icon={faExternalLinkAlt} external={true}/>
                 </div>
                 <div className="tab-pane-card">
-                    <TriIcons icons={["images"]} />
+                    <TriIcons icons={[faImages]} />
                     <h3>The Smithsonian Libraries</h3>
                     <p>The Smithsonian Libraries are a hidden national treasure, where experts come to test and expand knowledge and where
                         America and the world can turn for authentic answers.</p>
