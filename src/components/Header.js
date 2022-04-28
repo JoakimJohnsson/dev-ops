@@ -1,5 +1,7 @@
 import React from 'react';
 import Navbar from 'react-bootstrap/Navbar';
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {faJournalWhills} from "@fortawesome/free-solid-svg-icons";
 
 const Header = () => {
 
@@ -9,7 +11,7 @@ const Header = () => {
                             variant="light"
                             expand="md" aria-label="Header navigation">
                         <div className="container">
-                            <h1 className="m-0 logo-font-family__4 text-black">Dev Ops</h1>
+                            <h1 className="m-0 logo-font-family__4 text-black"><FontAwesomeIcon icon={faJournalWhills} className={"me-2"}/> Dev Ops</h1>
                         </div>
                     </Navbar>
                 </header>
