@@ -1,6 +1,7 @@
 import React from 'react';
 import {Tab} from "react-bootstrap";
 import IconLink from "../../IconLink";
+import {faExternalLinkAlt} from "@fortawesome/free-solid-svg-icons";
 import TriIcons from "../../TriIcons";
 
 const AccessibilityTutorialsTabPane = () => {
@@ -19,9 +20,9 @@ const AccessibilityTutorialsTabPane = () => {
                         content accessibility that meets the needs of individuals, organizations, and governments internationally.
                     </p>
                     <IconLink link={"https://www.w3.org/WAI/standards-guidelines/wcag/"} text={"WCAG Documentation"}
-                              icon={"external-link-alt"} external={true}/>
+                              icon={faExternalLinkAlt} external={true}/>
                     <IconLink link={"https://www.w3.org/"} text={"Source: W3C - The Word wide web consortium"}
-                              icon={"external-link-alt"} external={true}/>
+                              icon={faExternalLinkAlt} external={true}/>
                 </div>
                 <div className="tab-pane-card">
                     <TriIcons icons={["sign-language"]}/>
@@ -33,9 +34,9 @@ const AccessibilityTutorialsTabPane = () => {
                         elements and can be used to improve the accessibility and interoperability of web content and applications.
                     </p>
                     <IconLink link={"https://www.w3.org/TR/wai-aria-1.1/"} text={"WAI-ARIA Documentation"}
-                              icon={"external-link-alt"} external={true}/>
+                              icon={faExternalLinkAlt} external={true}/>
                     <IconLink link={"https://www.w3.org/"} text={"Source: W3C - The Word wide web consortium"}
-                              icon={"external-link-alt"} external={true}/>
+                              icon={faExternalLinkAlt} external={true}/>
                 </div>
             </div>
         </Tab.Pane>

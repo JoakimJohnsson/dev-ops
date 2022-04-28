@@ -73,6 +73,14 @@
 .nav-tabs {
   a {
     color: $color-black;
+    &.nav-link {
+      &:hover {
+        color: $color-near-black;
+      }
+      &:active, &:focus {
+        color: $color-secondary;
+      }
+    }
   }
 
   border: none;
@@ -97,6 +105,7 @@
 
     &:hover {
       background-color: #eee;
+      cursor: pointer;
     }
     &:focus {
       background-color: $color-near-black;

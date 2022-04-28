@@ -1,6 +1,7 @@
 import React from 'react';
 import {Tab} from "react-bootstrap";
 import IconLink from "../../IconLink";
+import {faExternalLinkAlt} from "@fortawesome/free-solid-svg-icons";
 import TriIcons from "../../TriIcons";
 
 const AccessibilityTutorialsTabPane = () => {
@@ -16,9 +17,9 @@ const AccessibilityTutorialsTabPane = () => {
                     <p>This collection of tutorials shows you how to develop web content that is accessible to people with disabilities,
                         and that provides a better user experience for everyone.</p>
                     <IconLink link={"https://www.w3.org/WAI/tutorials/"} text={"W3C Tutorials"}
-                              icon={"external-link-alt"} external={true}/>
+                              icon={faExternalLinkAlt} external={true}/>
                     <IconLink link={"https://www.w3.org/"} text={"Source: W3C - The Word wide web consortium"}
-                              icon={"external-link-alt"} external={true}/>
+                              icon={faExternalLinkAlt} external={true}/>
                 </div>
                 <div className="tab-pane-card">
                     <TriIcons icons={["tv"]} />
@@ -26,7 +27,7 @@ const AccessibilityTutorialsTabPane = () => {
                     <p>A series of easy going YouTube videos made by the Google Chrome Developers team.</p>
                     <IconLink link={"https://www.youtube.com/watch?v=HtTyRajRuyY&list=PLNYkxOF6rcICWx0C9LVWWVqvHlYJyqw7g"}
                               text={"A11ycasts"}
-                              icon={"external-link-alt"} external={true}/>
+                              icon={faExternalLinkAlt} external={true}/>
                 </div>
                 <div className="tab-pane-card">
                     <TriIcons icons={["graduation-cap"]} />
@@ -36,9 +37,9 @@ const AccessibilityTutorialsTabPane = () => {
                         to improve accessibility.</p>
                     <IconLink link={"https://developer.mozilla.org/en-US/docs/Learn/Accessibility/WAI-ARIA_basics"}
                               text={"WAI_ARIA Basics"}
-                              icon={"external-link-alt"} external={true}/>
+                              icon={faExternalLinkAlt} external={true}/>
                     <IconLink link={"https://developer.mozilla.org/"} text={"Source: MDN Web Docs (Mozilla Developer Network)"}
-                              icon={"external-link-alt"} external={true}/>
+                              icon={faExternalLinkAlt} external={true}/>
                 </div>
                 <div className="tab-pane-card">
                     <TriIcons icons={["graduation-cap"]} />
@@ -49,9 +50,9 @@ const AccessibilityTutorialsTabPane = () => {
                         in special detail.</p>
                     <IconLink link={"https://developer.mozilla.org/en-US/docs/Learn/Accessibility"}
                               text={"Accessible web development"}
-                              icon={"external-link-alt"} external={true}/>
+                              icon={faExternalLinkAlt} external={true}/>
                     <IconLink link={"https://developer.mozilla.org/"} text={"Source: MDN Web Docs (Mozilla Developer Network)"}
-                              icon={"external-link-alt"} external={true}/>
+                              icon={faExternalLinkAlt} external={true}/>
                 </div>
                 <div className="tab-pane-card">
                     <TriIcons icons={["graduation-cap"]} />
@@ -61,7 +62,7 @@ const AccessibilityTutorialsTabPane = () => {
                     <p>ctrl + alt + shift + arrow down / up - move in / out of sections</p>
                     <IconLink link={"https://dequeuniversity.com/screenreaders/voiceover-keyboard-shortcuts"}
                               text={"VoiceOver keyboard shortcuts for MAC OS"}
-                              icon={"external-link-alt"} external={true}/>
+                              icon={faExternalLinkAlt} external={true}/>
                 </div>
             </div>
         </Tab.Pane>

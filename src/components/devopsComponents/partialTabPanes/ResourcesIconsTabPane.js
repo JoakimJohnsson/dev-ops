@@ -1,6 +1,7 @@
 import React from 'react';
 import {Tab} from "react-bootstrap";
 import IconLink from "../../IconLink";
+import {faExternalLinkAlt} from "@fortawesome/free-solid-svg-icons";
 import TriIcons from "../../TriIcons";
 
 const ResourcesIconsTabPane = () => {
@@ -15,14 +16,14 @@ const ResourcesIconsTabPane = () => {
                     <h3>Fontawesome</h3>
                     <p>An awesome and easy to use library for whenever you need icons for your project.</p>
                     <IconLink link={"https://fontawesome.com"} text={"Fontawesome"}
-                              icon={"external-link-alt"} external={true}/>
+                              icon={faExternalLinkAlt} external={true}/>
                 </div>
                 <div className="tab-pane-card">
                     <TriIcons icons={["icons"]} />
                     <h3>Materialize</h3>
                     <p>932 Material Design Icons courtesy of Google..</p>
                     <IconLink link={"https://materializecss.com/icons.html"} text={"Materialize"}
-                              icon={"external-link-alt"} external={true}/>
+                              icon={faExternalLinkAlt} external={true}/>
                 </div>
                 <div className="tab-pane-card">
                     <TriIcons icons={["font"]} />
@@ -31,14 +32,14 @@ const ResourcesIconsTabPane = () => {
                         delightful and beautifully crafted icons for common actions and items. Download them for use in your digital products
                         for Android, iOS, and web.</p>
                     <IconLink link={"https://fonts.google.com/"} text={"Google fonts"}
-                              icon={"external-link-alt"} external={true}/>
+                              icon={faExternalLinkAlt} external={true}/>
                 </div>
                 <div className="tab-pane-card">
                     <TriIcons icons={["font"]} />
                     <h3>DaFont</h3>
                     <p>Top fonts for every project.</p>
                     <IconLink link={"https://www.dafont.com/"} text={"DaFont"}
-                              icon={"external-link-alt"} external={true}/>
+                              icon={faExternalLinkAlt} external={true}/>
                 </div>
             </div>
         </Tab.Pane>

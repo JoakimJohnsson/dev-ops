@@ -1,6 +1,7 @@
 import React from 'react';
 import {Tab} from "react-bootstrap";
 import IconLink from "../../IconLink";
+import {faExternalLinkAlt} from "@fortawesome/free-solid-svg-icons";
 import TriIcons from "../../TriIcons";
 
 const ResourcesDatabasesTabPane = () => {
@@ -16,7 +17,7 @@ const ResourcesDatabasesTabPane = () => {
                     <p>Firebase helps you build and run successful apps. It's backed by Google and loved by app development teams - from
                         startups to global enterprises.</p>
                     <IconLink link={"https://firebase.google.com/"} text={"Firebase"}
-                              icon={"external-link-alt"} external={true}/>
+                              icon={faExternalLinkAlt} external={true}/>
                 </div>
                 <div className="tab-pane-card">
                     <TriIcons icons={["server"]} />
@@ -24,7 +25,7 @@ const ResourcesDatabasesTabPane = () => {
                     <p>Create a backend in less than 2 minutes. Start your project with a Postgres Database, Authentication, instant APIs,
                         realtime subscriptions and Storage.</p>
                     <IconLink link={"https://supabase.io/"} text={"Supabase"}
-                              icon={"external-link-alt"} external={true}/>
+                              icon={faExternalLinkAlt} external={true}/>
                 </div>
             </div>
         </Tab.Pane>

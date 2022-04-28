@@ -1,6 +1,7 @@
 import React from 'react';
 import {Tab} from "react-bootstrap";
 import IconLink from "../IconLink";
+import {faExternalLinkAlt} from "@fortawesome/free-solid-svg-icons";
 import TriIcons from "../TriIcons";
 
 const GuidesTabPane = () => {
@@ -22,9 +23,9 @@ const GuidesTabPane = () => {
                             of the page. It makes easy to design layout structure without using float or positioning.
                         </p>
                         <IconLink link={"https://www.tutorialspoint.com/bootstrap4/bootstrap4_flex.htm"} text={"Bootstrap flex"}
-                                  icon={"external-link-alt"} external={true}/>
+                                  icon={faExternalLinkAlt} external={true}/>
                         <IconLink link={"https://www.tutorialspoint.com"} text={"Source: Tutorialspoint"}
-                                  icon={"external-link-alt"} external={true}/>
+                                  icon={faExternalLinkAlt} external={true}/>
                     </div>
                     <div className="tab-pane-card">
                         <TriIcons icons={["user-astronaut"]}/>
@@ -35,9 +36,9 @@ const GuidesTabPane = () => {
                             elements (the flex items).
                         </p>
                         <IconLink link={"https://css-tricks.com/snippets/css/a-guide-to-flexbox/"} text={"Complete guide to flexbox"}
-                                  icon={"external-link-alt"} external={true}/>
+                                  icon={faExternalLinkAlt} external={true}/>
                         <IconLink link={"https://css-tricks.com/"} text={"Source: CSS Tricks"}
-                                  icon={"external-link-alt"} external={true}/>
+                                  icon={faExternalLinkAlt} external={true}/>
                     </div>
                     <div className="tab-pane-card">
                         <TriIcons icons={["robot"]}/>
@@ -46,9 +47,9 @@ const GuidesTabPane = () => {
                             A plethora of useful tricks, snippets and guides for almost everything a front-end developer might need.
                         </p>
                         <IconLink link={"https://css-tricks.com/snippets/"} text={"Snippets"}
-                                  icon={"external-link-alt"} external={true}/>
+                                  icon={faExternalLinkAlt} external={true}/>
                         <IconLink link={"https://css-tricks.com/"} text={"Source: CSS Tricks"}
-                                  icon={"external-link-alt"} external={true}/>
+                                  icon={faExternalLinkAlt} external={true}/>
                     </div>
                     <div className="tab-pane-card">
                         <TriIcons icons={["robot"]}/>
@@ -59,9 +60,9 @@ const GuidesTabPane = () => {
                             that help prevent these bugs.
                         </p>
                         <IconLink link={"https://www.smashingmagazine.com/2021/10/guide-debugging-css/"} text={"Debugging CSS"}
-                                  icon={"external-link-alt"} external={true}/>
+                                  icon={faExternalLinkAlt} external={true}/>
                         <IconLink link={"https://www.smashingmagazine.com"} text={"Source: Smashing magazine"}
-                                  icon={"external-link-alt"} external={true}/>
+                                  icon={faExternalLinkAlt} external={true}/>
                     </div>
                 </div>
             </div>

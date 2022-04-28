@@ -9651,6 +9651,10 @@ footer {
   border: none; }
   .nav-tabs a {
     color: #000; }
+    .nav-tabs a.nav-link:hover {
+      color: #0a0a0a; }
+    .nav-tabs a.nav-link:active, .nav-tabs a.nav-link:focus {
+      color: #88ffcc; }
   .nav-tabs .nav-item {
     border-radius: 0;
     border: none;
@@ -9668,7 +9672,8 @@ footer {
       background-color: #0a0a0a;
       pointer-events: none; }
     .nav-tabs .nav-item:hover {
-      background-color: #eee; }
+      background-color: #eee;
+      cursor: pointer; }
     .nav-tabs .nav-item:focus {
       background-color: #0a0a0a; }
     .nav-tabs .nav-item:last-child {

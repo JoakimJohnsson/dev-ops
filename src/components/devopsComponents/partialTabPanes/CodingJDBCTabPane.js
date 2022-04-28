@@ -1,6 +1,7 @@
 import React from 'react';
 import {Tab} from "react-bootstrap";
 import IconLink from "../../IconLink";
+import {faExternalLinkAlt} from "@fortawesome/free-solid-svg-icons";
 import TriIcons from "../../TriIcons";
 import exJDBC01 from "../../../../src/assets/jdbc/exercises/01.pdf";
 import slJDBC01 from "../../../../src/assets/jdbc/slides/01-jdbc_presentation.pdf";
@@ -16,9 +17,9 @@ const CodingJDBCTabPane = () => {
                     <TriIcons icons={["server"]} />
                     <h3>01 - JDBC</h3>
                     <IconLink link={slJDBC01} text={"Slide 01"}
-                              icon={"external-link-alt"} external={true}/>
+                              icon={faExternalLinkAlt} external={true}/>
                     <IconLink link={exJDBC01} text={"Exercise 01"}
-                              icon={"external-link-alt"} external={true}/>
+                              icon={faExternalLinkAlt} external={true}/>
                 </div>
 
             </div>

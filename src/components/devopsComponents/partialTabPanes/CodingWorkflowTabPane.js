@@ -1,6 +1,7 @@
 import React from 'react';
 import {Tab} from "react-bootstrap";
 import IconLink from "../../IconLink";
+import {faExternalLinkAlt} from "@fortawesome/free-solid-svg-icons";
 import TriIcons from "../../TriIcons";
 
 const CodingWorkflowTabPane = () => {
@@ -17,9 +18,9 @@ const CodingWorkflowTabPane = () => {
                         In this post, we’re talking about what it takes to produce the “perfect” commit.
                     </p>
                     <IconLink link={"https://css-tricks.com/creating-the-perfect-commit-in-git/"} text={"Creating the perfect commit"}
-                              icon={"external-link-alt"} external={true}/>
+                              icon={faExternalLinkAlt} external={true}/>
                     <IconLink link={"https://css-tricks.com"} text={"Source: CSS tricks"}
-                              icon={"external-link-alt"} external={true}/>
+                              icon={faExternalLinkAlt} external={true}/>
                 </div>
                 <div className="tab-pane-card">
                     <TriIcons icons={["laptop-code"]}/>
@@ -28,9 +29,9 @@ const CodingWorkflowTabPane = () => {
                         In this post, we’re talking about what it takes to produce the “perfect” commit.
                     </p>
                     <IconLink link={"https://css-tricks.com/creating-the-perfect-commit-in-git/"} text={"Creating the perfect commit"}
-                              icon={"external-link-alt"} external={true}/>
+                              icon={faExternalLinkAlt} external={true}/>
                     <IconLink link={"https://css-tricks.com"} text={"Source: CSS tricks"}
-                              icon={"external-link-alt"} external={true}/>
+                              icon={faExternalLinkAlt} external={true}/>
                 </div>
             </div>
         </Tab.Pane>

@@ -1,6 +1,7 @@
 import React from 'react';
 import {Tab} from "react-bootstrap";
 import IconLink from "../../IconLink";
+import {faExternalLinkAlt} from "@fortawesome/free-solid-svg-icons";
 import TriIcons from "../../TriIcons";
 import roadToReact from "../../../../src/assets/react/the-road-to-react.pdf";
 
@@ -15,7 +16,7 @@ const CodingReactTabPane = () => {
                     <TriIcons icons={["server"]} />
                     <h3>Road to react</h3>
                     <IconLink link={roadToReact} text={"PDF"}
-                              icon={"external-link-alt"} external={true}/>
+                              icon={faExternalLinkAlt} external={true}/>
                 </div>
 
             </div>

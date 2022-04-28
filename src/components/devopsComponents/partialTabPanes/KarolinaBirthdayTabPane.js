@@ -19,21 +19,12 @@ const KarolinaBirthdayTabPane = () => {
             <div className="row article">
                 <div className="col-12 mb-2">
                     <h2 className="mb-5">Happy birthday!</h2>
-
                     <div className="row justify-content-center">
                         <div className="col-12 col-xl-8 d-flex justify-content-center align-items-center flex-column">
-
                             <img src={birthdayImage} className="birthday-image mb-3" alt="birthday reveal"/>
-
                             <button className="btn btn-secondary " onClick={toggleBirthdayImage}>Click me to reveal your gift!</button>
-
-
                         </div>
                     </div>
-
-
-                    {/*Insert happy birthday component here*/}
-
                 </div>
             </div>
         </Tab.Pane>

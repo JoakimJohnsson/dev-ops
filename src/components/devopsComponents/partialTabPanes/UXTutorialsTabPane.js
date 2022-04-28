@@ -1,6 +1,7 @@
 import React from 'react';
 import {Tab} from "react-bootstrap";
 import IconLink from "../../IconLink";
+import {faExternalLinkAlt} from "@fortawesome/free-solid-svg-icons";
 import TriIcons from "../../TriIcons";
 
 const AccessibilityTutorialsTabPane = () => {
@@ -17,9 +18,9 @@ const AccessibilityTutorialsTabPane = () => {
                         process for developing a better user experience for their customers. You could use different parts of the process
                         separately but they ideally work best as a series of steps.</p>
                     <IconLink link={"https://developers.google.com/web/fundamentals/design-and-ux/ux-basics"} text={"Basics of UX"}
-                              icon={"external-link-alt"} external={true}/>
+                              icon={faExternalLinkAlt} external={true}/>
                     <IconLink link={"https://developers.google.com/"} text={"Source: Google developers"}
-                              icon={"external-link-alt"} external={true}/>
+                              icon={faExternalLinkAlt} external={true}/>
                 </div>
             </div>
         </Tab.Pane>

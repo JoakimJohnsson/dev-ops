@@ -1,6 +1,7 @@
 import React from 'react';
 import {Tab} from "react-bootstrap";
 import IconLink from "../../IconLink";
+import {faExternalLinkAlt} from "@fortawesome/free-solid-svg-icons";
 import TriIcons from "../../TriIcons";
 import exTDD01 from "../../../../src/assets/tdd/exercises/01.pdf";
 import exTDD02 from "../../../../src/assets/tdd/exercises/02.pdf";
@@ -20,25 +21,25 @@ const CodingTDDTabPane = () => {
                     <TriIcons icons={["server"]} />
                     <h3>01 - Introduction to TDD</h3>
                     <IconLink link={slTDD01} text={"Slide 01"}
-                              icon={"external-link-alt"} external={true}/>
+                              icon={faExternalLinkAlt} external={true}/>
                     <IconLink link={exTDD01} text={"Exercise 01"}
-                              icon={"external-link-alt"} external={true}/>
+                              icon={faExternalLinkAlt} external={true}/>
                 </div>
                 <div className="tab-pane-card">
                     <TriIcons icons={["server"]} />
                     <h3>02 - TDD - The big picture</h3>
                     <IconLink link={slTDD02} text={"Slide 02"}
-                              icon={"external-link-alt"} external={true}/>
+                              icon={faExternalLinkAlt} external={true}/>
                     <IconLink link={exTDD02} text={"Exercise 02"}
-                              icon={"external-link-alt"} external={true}/>
+                              icon={faExternalLinkAlt} external={true}/>
                 </div>
                 <div className="tab-pane-card">
                     <TriIcons icons={["server"]} />
                     <h3>03 - Basic unit testing</h3>
                     <IconLink link={slTDD03} text={"Slide 03"}
-                              icon={"external-link-alt"} external={true}/>
+                              icon={faExternalLinkAlt} external={true}/>
                     <IconLink link={exTDD03} text={"Exercise 03"}
-                              icon={"external-link-alt"} external={true}/>
+                              icon={faExternalLinkAlt} external={true}/>
                 </div>
 
             </div>

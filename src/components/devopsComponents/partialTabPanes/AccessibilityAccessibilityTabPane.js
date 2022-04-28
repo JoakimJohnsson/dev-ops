@@ -1,6 +1,7 @@
 import React from 'react';
 import {Tab} from "react-bootstrap";
 import IconLink from "../../IconLink";
+import {faExternalLinkAlt} from "@fortawesome/free-solid-svg-icons";
 import TriIcons from "../../TriIcons";
 
 const AccessibilityAccessibilityTabPane = () => {
@@ -16,7 +17,7 @@ const AccessibilityAccessibilityTabPane = () => {
                     <p>Managed by the Portuguese government, these are sites and tools to support accessibility and usability, to
                         ensure promotion good practices and improve the experience of using digital services.</p>
                     <IconLink link={"https://accessmonitor.acessibilidade.gov.pt/"} text={"Access monitor"}
-                              icon={"external-link-alt"} external={true}/>
+                              icon={faExternalLinkAlt} external={true}/>
                 </div>
                 <div className="tab-pane-card">
                     <TriIcons icons={["palette"]} />
@@ -24,7 +25,7 @@ const AccessibilityAccessibilityTabPane = () => {
                     <p>Colour contrast is an important part of web accessibility. And one of the easiest things to check for, and get
                         right.</p>
                     <IconLink link={"https://www.tpgi.com/color-contrast-checker/"} text={"Colour Contrast Checker"}
-                              icon={"external-link-alt"} external={true}/>
+                              icon={faExternalLinkAlt} external={true}/>
                 </div>
                 <div className="tab-pane-card">
                     <TriIcons icons={["sitemap"]} />
@@ -33,9 +34,9 @@ const AccessibilityAccessibilityTabPane = () => {
                         browser extension is a fast, lightweight, yet powerful testing tool driven by the
                         world's most trusted accessibility testing engine, axe-core, developed by Deque.</p>
                     <IconLink link={"https://addons.mozilla.org/sv-SE/firefox/addon/axe-devtools/"} text={"Axe - Firefox"}
-                              icon={"external-link-alt"} external={true}/>
+                              icon={faExternalLinkAlt} external={true}/>
                     <IconLink link={"https://chrome.google.com/webstore/detail/axe-devtools-web-accessib/lhdoppojpmngadmnindnejefpokejbdd"} text={"Axe - Chrome"}
-                              icon={"external-link-alt"} external={true}/>
+                              icon={faExternalLinkAlt} external={true}/>
                 </div>
                 <div className="tab-pane-card">
                     <TriIcons icons={["music"]} />
@@ -45,7 +46,7 @@ const AccessibilityAccessibilityTabPane = () => {
                         to ensure the long-term growth of the Web. It is the best resource for validating HTML
                         markup.</p>
                     <IconLink link={"https://validator.w3.org/"} text={"W3C Markup validation service"}
-                              icon={"external-link-alt"} external={true}/>
+                              icon={faExternalLinkAlt} external={true}/>
                 </div>
                 <div className="tab-pane-card">
                     <TriIcons icons={["sign-language"]}/>
@@ -55,9 +56,9 @@ const AccessibilityAccessibilityTabPane = () => {
                         and techniques.
                     </p>
                     <IconLink link={"https://www.w3.org/WAI/WCAG21/quickref/"} text={"How to Meet WCAG (Quick Reference)"}
-                              icon={"external-link-alt"} external={true}/>
+                              icon={faExternalLinkAlt} external={true}/>
                     <IconLink link={"https://www.w3.org/"} text={"Source: W3C - The Word wide web consortium"}
-                              icon={"external-link-alt"} external={true}/>
+                              icon={faExternalLinkAlt} external={true}/>
                 </div>
                 <div className="tab-pane-card">
                     <TriIcons icons={["sign-language"]}/>
@@ -67,9 +68,9 @@ const AccessibilityAccessibilityTabPane = () => {
                         this document to test web accessibility.
                     </p>
                     <IconLink link={"https://media.dequeuniversity.com/public/en/docs/deque_web_accessibility_checklist.pdf"} text={"Accessibility Checklist for developers"}
-                              icon={"external-link-alt"} external={true}/>
+                              icon={faExternalLinkAlt} external={true}/>
                     <IconLink link={"https://dequeuniversity.com/"} text={"Source: Deque university"}
-                              icon={"external-link-alt"} external={true}/>
+                              icon={faExternalLinkAlt} external={true}/>
                 </div>
                 <div className="tab-pane-card">
                     <TriIcons icons={["sign-language"]}/>
@@ -79,9 +80,9 @@ const AccessibilityAccessibilityTabPane = () => {
                         this document to test web accessibility.
                     </p>
                     <IconLink link={"https://dequeuniversity.com/assets/pdf/module-design/dq-designers-checklist.pdf"} text={"Accessibility Checklist for designers"}
-                              icon={"external-link-alt"} external={true}/>
+                              icon={faExternalLinkAlt} external={true}/>
                     <IconLink link={"https://dequeuniversity.com/"} text={"Source: Deque university"}
-                              icon={"external-link-alt"} external={true}/>
+                              icon={faExternalLinkAlt} external={true}/>
                 </div>
             </div>
         </Tab.Pane>
